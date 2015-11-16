@@ -12,14 +12,14 @@ import java.sql.SQLException;
 public class SQLView extends Activity {
 
     TextView tvSQLInfo;
-
+    int i;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sqlview);
 
-        tvSQLInfo = (TextView)findViewById(R.id.tvSQLInfo);
+        tvSQLInfo = (TextView) findViewById(R.id.tvSQLInfo);
         HotOrNot info = new HotOrNot(this);
         try {
             info.open();
