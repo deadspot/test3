@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App</string>
+
+    <string name="hello_world">Hello world11!</string>
+    <string name="action_settings">About us</string>
+    <string name="ref">Reference</string>
+</resources>
