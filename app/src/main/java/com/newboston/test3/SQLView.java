@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public class SQLView extends Activity {
 
     TextView tvSQLInfo;
-    int i;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
