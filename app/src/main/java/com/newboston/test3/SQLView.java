@@ -10,9 +10,7 @@ import java.sql.SQLException;
  * Created by boss on 16.11.2015.
  */
 public class SQLView extends Activity {
-
     TextView tvSQLInfo;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
